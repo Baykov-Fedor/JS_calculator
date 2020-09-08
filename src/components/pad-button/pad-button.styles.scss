@@ -1,0 +1,74 @@
+.pad-button {
+  font-size: 2rem;
+  outline: 1px solid #e0e0e0;
+  border: none;
+  &:hover {
+    outline: 1px solid #e62f89;
+    z-index: 3;
+  }
+
+  &.num-button {
+    background-color: #f3f3f3;
+    color: black;
+  }
+
+  &.func-button {
+    background-color: #894eda;
+    color: white;
+  }
+}
+
+#add {
+  grid-area: add;
+}
+#subtract {
+  grid-area: sub;
+}
+#multiply {
+  grid-area: mul;
+}
+#divide {
+  grid-area: div;
+}
+#equals {
+  grid-area: eq;
+  background-color: #f17300;
+}
+#clear {
+  grid-area: ac;
+  background-color: #e62f89;
+}
+#decimal {
+  grid-area: dec;
+}
+
+#one {
+  grid-area: one;
+}
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#four {
+  grid-area: four;
+}
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+#seven {
+  grid-area: seven;
+}
+#eight {
+  grid-area: eight;
+}
+#nine {
+  grid-area: nine;
+}
+#zero {
+  grid-area: zero;
+}

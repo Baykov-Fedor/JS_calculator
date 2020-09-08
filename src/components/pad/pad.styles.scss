@@ -1,0 +1,11 @@
+.pad {
+  grid-area: num-pad;
+  display: grid;
+  grid-template:
+    "ac ac div mul"
+    "one two three sub"
+    "four five six add"
+    "seven eight nine eq"
+    "zero zero dec eq"
+    / 1fr 1fr 1fr 1fr;
+}

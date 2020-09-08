@@ -1,0 +1,19 @@
+.display {
+  grid-area: display;
+  min-height: 100px;
+  color: white;
+  text-align: right;
+  background-color: #212121;
+  border-radius: 3px;
+  padding: 30px;
+
+  &--all-nums {
+    font-size: 1.5rem;
+    min-height: 2rem;
+  }
+
+  &--current-number {
+    font-size: 2rem;
+    height: 2.5rem;
+  }
+}
