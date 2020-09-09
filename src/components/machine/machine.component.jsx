@@ -4,7 +4,7 @@ import Display from "../display/display.component";
 import Pad from "../pad/pad.component";
 
 import "./machine.styles.scss";
-import { countArr } from "./machine-counter";
+import { countArr } from "./machine.utils";
 
 class Machine extends React.Component {
   constructor(props) {

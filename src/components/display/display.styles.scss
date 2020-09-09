@@ -1,6 +1,5 @@
 .display {
-  grid-area: display;
-  min-height: 100px;
+  height: 100px;
   color: white;
   text-align: right;
   background-color: #212121;
@@ -9,7 +8,7 @@
 
   &--all-nums {
     font-size: 1.5rem;
-    min-height: 2rem;
+    height: 2rem;
   }
 
   &--current-number {
